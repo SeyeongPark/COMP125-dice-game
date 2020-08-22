@@ -1,0 +1,17 @@
+body
+{
+    background-color: rgb(169, 104, 90);
+}
+
+#canvas
+{
+    background-image: url("../../Assets/images/background.png");
+    border: 1px dotted black;
+    border-radius: 10px;
+}
+
+#mainContent
+{
+    width: 640px;
+    margin: 0 auto;
+}
