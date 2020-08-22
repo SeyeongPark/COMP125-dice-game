@@ -98,13 +98,7 @@ let Game = (function () {
         stage.addChild(middleReel);
         rightReel = new Core.GameObject("6", Config.Screen.CENTER_X + 200, Config.Screen.CENTER_Y - 200, true);
         stage.addChild(rightReel);
-        /* Interfaces for bitmap images for dice*/
-        leftReelImage = new Core.GameObject("sign3", Config.Screen.CENTER_X - 200, Config.Screen.CENTER_Y - 300, true);
-        stage.addChild(leftReelImage);
-        middleReelImage = new Core.GameObject("sign2", Config.Screen.CENTER_X, Config.Screen.CENTER_Y - 300, true);
-        stage.addChild(middleReelImage);
-        rightReelImage = new Core.GameObject("sign6", Config.Screen.CENTER_X + 200, Config.Screen.CENTER_Y - 300, true);
-        stage.addChild(rightReelImage);
+
         /* Interface for Lables of dice results*/
         leftResuLabel = new UIObjects.Label("3", "40px", "Consolas", "#000000", Config.Game.CENTER_X - 200, Config.Game.CENTER_Y + 80, true);
         stage.addChild(leftResuLabel);
